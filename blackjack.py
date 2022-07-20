@@ -38,7 +38,7 @@ def determine_total(hand):
     total = 0
     ace_11s = 0
     for card in hand:
-        if card in range(11):
+        if card in range(1,14):
             total += card
         elif card in ['h2', 's2', 'c2', 'd2']:
             total += 2
